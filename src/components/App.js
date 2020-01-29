@@ -10,6 +10,9 @@ import stick from '../../assets/baby-yoda-stick.jpg';
 import tea from '../../assets/baby-yoda-tea.jpeg';
 import walk from '../../assets/baby-yoda-walk.jpg';
 import one from '../../assets/baby-yoda1.jpeg';
+import basket from '../../assets/basket.jpg';
+import frog from '../../assets/frog.jpg';
+import happy from '../../assets/happy.jpg';
 
 const App = () => (
   <React.Fragment>
@@ -20,8 +23,12 @@ const App = () => (
     <Character name='Yoda' image={guy} species='Human?' origin='Earth?' location='Earth' />
     <Character name='Yoda' image={stick} species='Yoda' origin='Yoda' location='Space' />
     <Character name='Yoda' image={tea} species='Yoda' origin='Yoda' location='village' />
-    <Character name='Yoda' image={walk} species='Yoda' origin='Yoda' location='leaving Village'  />
+    <Character name='Yoda' image={walk} species='Yoda' origin='Yoda' location='Village'  />
     <Character name='Yoda' image={one} species='Yoda' origin='Internet' location='ground' />
+    <Character name='Yoda' image={basket} species='Yoda' origin='Yoda' location='Village'  />
+    <Character name='Yoda' image={frog} species='Yoda' origin='Yoda' location='ground' />
+    <Character name='Yoda' image={happy} species='Yoda' origin='Yoda' location='ground' />
+
     <Footer />
   </React.Fragment>
 );
