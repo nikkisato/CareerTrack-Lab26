@@ -1,7 +1,4 @@
-img {
-    max-width: 400px;
-    max-height: 400px;
-}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -19,4 +16,8 @@ width: auto;
     background-color: grey;
     color:white;
     text-align:center;
+
+    img {
+        max-width: 800px;
+    }
 }
