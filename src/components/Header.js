@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import styles from "./App.css";
+import React, { Component } from 'react';
+import styles from './Header.css';
 
 export default class Header extends Component {
   render() {
@@ -16,8 +16,8 @@ export default class Header extends Component {
           </ul>
         </nav>
         <section>
-          <h1>The Rick and Morty API</h1>
-          <h2>Hey, Did you ever want to hold a Terry fold?</h2>
+          <h1>Baby Yoda</h1>
+          <h2>Use the force</h2>
         </section>
       </header>
     );

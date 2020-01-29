@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './App.css';
+import styles from './Footer.css';
 
 
 export default class Footer extends Component{
@@ -7,9 +7,9 @@ export default class Footer extends Component{
     return (
       <footer className ={styles.Footer}>
         <section className={styles.stats}>
-          <p>Characters: 493</p>
-          <p>Locations: 76</p>
-          <p>Episodes: 31</p>
+          <p>Character: 1</p>
+          <p>Locations: 5</p>
+          <p>Episodes: 8</p>
         </section>
         <section className={styles.acknowledgement}>
           <p>❮❯ by <a href="#">Nikki Sato</a> 2020</p>
